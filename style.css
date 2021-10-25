@@ -13,8 +13,7 @@ body {
 }
 @media (min-width: 320px) and (max-width: 1023px) {
   body {
-    transform: scale(0.6);
-    margin-left: -30%;
+    transform: scale(0.7);
   }
 }
 
