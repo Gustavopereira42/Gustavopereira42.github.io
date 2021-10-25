@@ -40,7 +40,6 @@ function pullOut() {
     .to('button', 1, {
       y: '180px',
       ease: Circ.easeInOut,
-      onComplete: toggleText
     }, 'moveDown+=0.15');
 }
 
@@ -55,7 +54,6 @@ function toggleFlip() {
   TweenMax.to('.card', 1, {
     rotationY: ry,
     ease: Power4.easeInOut,
-    onComplete: toggleText
   });
 }
 
@@ -65,4 +63,4 @@ function toggleText() {
 }
 
 button.one('click', pullOut);
-button.on('click', toggleFlip);
+// button.on('click', toggleFlip);
