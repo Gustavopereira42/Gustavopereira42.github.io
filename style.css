@@ -8,12 +8,13 @@ body {
   perspective: 1000px;
   margin: 0;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   transform: scale(1.5);
 }
 @media (min-width: 320px) and (max-width: 1023px) {
   body {
-    transform: scale(0.5);
+    transform: scale(0.6);
+    margin-left: -30%;
   }
 }
 
@@ -135,7 +136,7 @@ body {
   display: block;
   text-align: center;
   margin-top: 40px;
-  padding: 0 20%;
+  padding: 0;
   margin: auto;
   line-height: 1.3;
 }
