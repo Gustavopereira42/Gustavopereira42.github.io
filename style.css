@@ -114,9 +114,6 @@ body {
   background-size: 130% auto;
 }
 
-.front {
-  background-image: url(invite.jpeg);
-}
 .front h1 {
   position: relative;
   font: normal 3em/0.9 "Slackey", sans-serif;
@@ -141,7 +138,6 @@ body {
 }
 
 .face.back {
-  background-image: url(invite.jpeg);
   color: #000;
   overflow: hidden;
 }
