@@ -115,7 +115,7 @@ body {
 }
 
 .front {
-  background-image: url(cat.jpeg);
+  background-image: url(invite.jpeg);
 }
 .front h1 {
   position: relative;
@@ -141,7 +141,7 @@ body {
 }
 
 .face.back {
-  background-image: url(cat.jpeg);
+  background-image: url(invite.jpeg);
   color: #000;
   overflow: hidden;
 }
